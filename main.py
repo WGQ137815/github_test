@@ -6,11 +6,13 @@ import math
 NUM_CALIPERS_DEFAULT = 10  # 默认卡尺数量
 CALIPER_WIDTH_DEFAULT = 100  # 默认卡尺宽度，None 表示自动计算
 CALIPER_LENGTH_DEFAULT = 50  # 默认卡尺长度，None 表示自动计算
+
 155555
 3
 1
 45
 1
+
 # 读入图片，替换成你的路径
 image_path = 'Pic_2023_07_30_143321_4.bmp'
 img = cv2.imread(image_path)
